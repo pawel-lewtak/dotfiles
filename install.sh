@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# Wget
+ln -f ~/.dotfiles/wgetrc ~/.wgetrc
+
 # Zsh
 ln -f ~/.dotfiles/zshrc ~/.zshrc
 
