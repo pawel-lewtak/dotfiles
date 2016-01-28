@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# screen
+ln -f ~/.dotfiles/screenrc ~/.screenrc
+
 # tmux
 ln -f ~/.dotfiles/tmux.conf ~/.tmux.conf
 
