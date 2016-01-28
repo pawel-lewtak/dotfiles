@@ -1,5 +1,5 @@
 # custom intelij* VM options
-
+# source: http://tomaszdziurko.pl/2015/11/1-and-the-only-one-to-customize-intellij-idea-memory-settings/
 -Xms1024m
 -Xmx4096m
 -XX:MaxPermSize=350m
