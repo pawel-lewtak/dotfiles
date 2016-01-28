@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# tmux
+ln -f ~/.dotfiles/tmux.conf ~/.tmux.conf
+
 # Wget
 ln -f ~/.dotfiles/wgetrc ~/.wgetrc
 

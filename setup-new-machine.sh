@@ -18,6 +18,7 @@ sudo aptitude -y install pidgin
 sudo aptitude -y install pidgin-plugin-pack
 sudo aptitude -y install htop
 sudo aptitude -y install vnstat
+sudo aptitude -y install tmux
 
 
 
