@@ -17,4 +17,8 @@ if [ -d ~/.PhpStorm2016.1 ]; then
 elif [ -d ~/.WebIde110 ]; then
     ln -f ~/.dotfiles/intelij/intelij.options ~/.WebIde110/phpstorm64.vmoptions
 fi
-ln -f ~/.dotfiles/intelij/intelij.options ~/.PyCharm50/pycharm64.vmoptions
+if [ -d ~/..PyCharm2016.1 ]; then
+    ln -f ~/.dotfiles/intelij/intelij.options ~/..PyCharm2016.1/phpstorm64.vmoptions
+elif [ -d ~/.PyCharm50 ]; then
+    ln -f ~/.dotfiles/intelij/intelij.options ~/.PyCharm50/phpstorm64.vmoptions
+fi
