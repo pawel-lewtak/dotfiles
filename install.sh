@@ -11,14 +11,14 @@ ln -f ~/.dotfiles/wgetrc ~/.wgetrc
 # Zsh
 ln -f ~/.dotfiles/zshrc ~/.zshrc
 
-# PHPStorm/PyCharm
+# Jetbrains IDE
 if [ -d ~/.PhpStorm2016.1 ]; then
     ln -f ~/.dotfiles/intelij/intelij.options ~/.PhpStorm2016.1/phpstorm64.vmoptions
-elif [ -d ~/.WebIde110 ]; then
-    ln -f ~/.dotfiles/intelij/intelij.options ~/.WebIde110/phpstorm64.vmoptions
 fi
-if [ -d ~/..PyCharm2016.1 ]; then
-    ln -f ~/.dotfiles/intelij/intelij.options ~/..PyCharm2016.1/phpstorm64.vmoptions
-elif [ -d ~/.PyCharm50 ]; then
-    ln -f ~/.dotfiles/intelij/intelij.options ~/.PyCharm50/phpstorm64.vmoptions
+if [ -d ~/.PyCharm2016.1 ]; then
+    ln -f ~/.dotfiles/intelij/intelij.options ~/.PyCharm2016.1/pycharm64.vmoptions
 fi
+if [ -d ~/.IntelliJIdea2016.1 ]; then
+    ln -f ~/.dotfiles/intelij/intelij.options ~/.IntelliJIdea2016.1/idea64.vmoptions
+fi
+
