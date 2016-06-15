@@ -20,6 +20,9 @@ sudo aptitude -y install htop
 sudo aptitude -y install vnstat
 sudo aptitude -y install tmux
 sudo aptitude -y install grc
+sudo aptitude -y install ncdu
+sudo aptitude -y install nano
+sudo aptitude -y install icdiff
 
 
 
