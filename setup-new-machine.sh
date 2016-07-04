@@ -6,6 +6,7 @@ sudo add-apt-repository ppa:webupd8team/java
 sudo aptitude update
 sudo aptitude -y upgrade
 sudo aptitude -y install curl
+sudo aptitude -y install language-pack-en
 sudo aptitude -y install git
 sudo aptitude -y install oracle-java8-installer
 sudo aptitude -y install python-pip
