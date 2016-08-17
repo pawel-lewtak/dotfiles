@@ -13,10 +13,6 @@ sudo aptitude -y install python-pip
 sudo aptitude -y install zip
 sudo aptitude -y install unzip
 sudo aptitude -y install screen
-sudo aptitude -y install vlc
-sudo aptitude -y install synaptic
-sudo aptitude -y install pidgin
-sudo aptitude -y install pidgin-plugin-pack
 sudo aptitude -y install htop
 sudo aptitude -y install vnstat
 sudo aptitude -y install tmux
@@ -24,8 +20,7 @@ sudo aptitude -y install grc
 sudo aptitude -y install ncdu
 sudo aptitude -y install nano
 sudo aptitude -y install icdiff
-
-
+sudo aptitude -y install weechat
 
 echo "Cleaning Up" &&
 sudo apt-get -f install &&
