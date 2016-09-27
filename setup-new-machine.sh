@@ -21,6 +21,7 @@ sudo aptitude -y install ncdu
 sudo aptitude -y install nano
 sudo aptitude -y install icdiff
 sudo aptitude -y install weechat
+sudo aptitude -y install autojump
 
 echo "Cleaning Up" &&
 sudo apt-get -f install &&
