@@ -11,6 +11,9 @@ ln -f ~/.dotfiles/wgetrc ~/.wgetrc
 # Zsh
 ln -f ~/.dotfiles/zshrc ~/.zshrc
 
+# top
+ln -f ~/.dotfiles/toprc ~/.toprc
+
 # Jetbrains IDE
 if [ -d ~/.PhpStorm2016.3 ]; then
     ln -f ~/.dotfiles/intelij/intelij.options ~/.PhpStorm2016.1/phpstorm64.vmoptions
