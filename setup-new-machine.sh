@@ -23,6 +23,7 @@ sudo aptitude -y install icdiff
 sudo aptitude -y install weechat
 sudo aptitude -y install autojump
 sudo aptitude -y install mosh
+sudo aptitude -y install silversearcher-ag
 
 echo "Cleaning Up" &&
 sudo apt-get -f install &&
