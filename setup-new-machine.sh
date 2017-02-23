@@ -25,6 +25,8 @@ sudo aptitude -y install autojump
 sudo aptitude -y install mosh
 sudo aptitude -y install silversearcher-ag
 
+sudo pip install -U mycli
+
 echo "Cleaning Up" &&
 sudo apt-get -f install &&
 sudo apt-get autoremove &&
