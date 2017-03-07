@@ -14,6 +14,9 @@ ln -f ~/.dotfiles/zshrc ~/.zshrc
 # top
 ln -f ~/.dotfiles/toprc ~/.toprc
 
+# top
+ln -f ~/.dotfiles/myclirc ~/.myclirc
+
 # Jetbrains IDE
 if [ -d ~/.PhpStorm2017.1 ]; then
     ln -f ~/.dotfiles/intelij/intelij.options ~/.PhpStorm2017.1/phpstorm64.vmoptions
