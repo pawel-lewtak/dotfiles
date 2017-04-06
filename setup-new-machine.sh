@@ -5,25 +5,27 @@ set -e
 sudo add-apt-repository ppa:webupd8team/java
 sudo aptitude update
 sudo aptitude -y upgrade
-sudo aptitude -y install curl
-sudo aptitude -y install language-pack-en
-sudo aptitude -y install git
-sudo aptitude -y install oracle-java8-installer
-sudo aptitude -y install python-pip
-sudo aptitude -y install zip
-sudo aptitude -y install unzip
-sudo aptitude -y install screen
-sudo aptitude -y install htop
-sudo aptitude -y install vnstat
-sudo aptitude -y install tmux
-sudo aptitude -y install grc
-sudo aptitude -y install ncdu
-sudo aptitude -y install nano
-sudo aptitude -y install icdiff
-sudo aptitude -y install weechat
-sudo aptitude -y install autojump
-sudo aptitude -y install mosh
-sudo aptitude -y install silversearcher-ag
+
+sudo aptitude -y install \
+    curl \
+    language-pack-en \
+    git \
+    oracle-java8-installer \
+    python-pip \
+    zip \
+    unzip \
+    screen \
+    htop \
+    vnstat \
+    tmux \
+    grc \
+    ncdu \
+    nano \
+    icdiff \
+    weechat \
+    autojump \
+    mosh \
+    silversearcher-ag
 
 sudo pip install -U mycli
 

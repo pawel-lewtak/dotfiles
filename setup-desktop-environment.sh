@@ -3,15 +3,20 @@ set -e
 
 sudo aptitude update
 sudo aptitude -y upgrade
-sudo aptitude -y install i3-wm dunst i3lock i3status suckless-tools
-sudo aptitude -y install parcellite
-sudo aptitude -y install guake
-sudo aptitude -y install vlc
-sudo aptitude -y install synaptic
-sudo aptitude -y install pidgin
-sudo aptitude -y install pidgin-plugin-pack
-sudo aptitude -y install scrot
-sudo aptitude -y install baobab
+sudo aptitude -y install \
+    i3-wm \
+    dunst \
+    i3lock \
+    i3status \
+    suckless-tools \
+    parcellite \
+    guake \
+    vlc \
+    synaptic \
+    pidgin \
+    pidgin-plugin-pack \
+    scrot \
+    baobab
 
 echo "Cleaning Up" &&
 sudo apt-get -f install &&
