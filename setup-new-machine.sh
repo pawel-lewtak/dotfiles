@@ -25,7 +25,8 @@ sudo aptitude -y install \
     weechat \
     autojump \
     mosh \
-    silversearcher-ag
+    silversearcher-ag \
+    zsh
 
 sudo pip install -U mycli
 
