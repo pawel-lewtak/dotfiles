@@ -83,4 +83,13 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Set time of command execution in right prompt
+RPROMPT='[%T]'
+
+TMOUT=1
+
+TRAPALRM() {
+    zle reset-prompt
+}
+
 . /usr/share/autojump/autojump.sh
