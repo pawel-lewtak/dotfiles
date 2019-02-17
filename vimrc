@@ -21,3 +21,7 @@ set cursorline
 
 " show the matching part of the pair for [] {} and ()
 set showmatch
+
+" Maintain undo history between sessions
+set undofile 
+set undodir=~/.vim/undodir
