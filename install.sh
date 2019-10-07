@@ -18,13 +18,12 @@ ln -f ~/.dotfiles/toprc ~/.toprc
 ln -f ~/.dotfiles/myclirc ~/.myclirc
 
 # Jetbrains IDE
-if [ -d ~/.PhpStorm2017.1 ]; then
-    ln -f ~/.dotfiles/intelij/intelij.options ~/.PhpStorm2017.1/phpstorm64.vmoptions
+if [ -d ~/.PhpStorm2019.2 ]; then
+    ln -f ~/.dotfiles/intelij/intelij.options ~/.PhpStorm2017.2/config/phpstorm64.vmoptions
+    ln -f ~/.dotfiles/intelij/idea.properties ~/.PhpStorm2017.2/config/idea.properties
 fi
-if [ -d ~/.PyCharm2017.1 ]; then
-    ln -f ~/.dotfiles/intelij/intelij.options ~/.PyCharm2017.1/pycharm64.vmoptions
-fi
-if [ -d ~/.IntelliJIdea2017.1 ]; then
-    ln -f ~/.dotfiles/intelij/intelij.options ~/.IntelliJIdea2017.1/idea64.vmoptions
+if [ -d ~/.PyCharm2019.2 ]; then
+    ln -f ~/.dotfiles/intelij/intelij.options ~/.PyCharm2019.2/pycharm64.vmoptions
+    ln -f ~/.dotfiles/intelij/idea.properties ~/.PyCharm2019.2/config/idea.properties
 fi
 
